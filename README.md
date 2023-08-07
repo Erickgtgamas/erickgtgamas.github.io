@@ -1,3 +1,3 @@
-# erickgtgamas.github.io
+# im doin stuff
 Under Construction
 https://Erickgtgamas.github.io/
