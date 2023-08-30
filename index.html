@@ -7,20 +7,21 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="styles.css">
 <style>
+  /* Define the @font-face rule to load Comic Sans MS font */
+  @font-face {
+    font-family: 'Comic Sans MS';
+    src: local('Comic Sans MS'), url('comic-sans.woff') format('woff'); /* Replace 'path-to-comic-sans-font.woff' with the actual path to your font file */
+  }
+  
+  /* Apply the Comic Sans MS font to elements using it */
   .closer-text {
-    letter-spacing: -2px; /* Adjust the value to make the text closer */
-    line-height: 0.99999; /* Adjust the value to make the lines closer together */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    letter-spacing: -2px;
+    line-height: 0.99999;
   }
 </style>
 <script src=""></script>
 
-<style>
-  @media only screen and (max-width: 600px) {
-    h1, h3 {
-      font-family: "Comic Sans MS", cursive, sans-serif;
-    }
-  }
-</style>
 
 <body style="background-color:#4b4b4b;">
   <div class="div-1">
